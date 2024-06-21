@@ -1,0 +1,27 @@
+/* Navbar.css */
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #00416A, #E4E5E6);
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.nav-menu {
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    padding: 8px 25px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-menu:hover {
+    color: #ffeb3b;
+    transform: scale(1.05);
+}
